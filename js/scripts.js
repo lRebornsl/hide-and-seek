@@ -114,7 +114,7 @@ for (let i = 0; i < prjData.length; i += 1) { /* Creating project cards using th
     <div class="container">
       <div class="pu-title flex">
         <div>
-          <h2>${prjData[i].name}</h2>
+          <h2>${prjData[1].name}</h2>
         </div>
         <div>
           <button class="bt-popup bt-puclose" ><img src="icons/xicon.png" alt="Image"></button>
