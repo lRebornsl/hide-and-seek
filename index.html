@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" as="styles">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>lRebornsl Portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container bar-cont flex">
+      <div class="bar flex">
+        <div id="logo" class="logo">
+          <h2>lRebornsl</h2>
+        </div><!--logo-->
+        <div id="nav" class="aux nav hidden flex">
+          <nav class="nav-bar flex">
+            <div class="nav-item">
+              <a class="item-button" href="#main">Portfolio</a>
+              <hr>
+            </div>
+            <div class="nav-item">
+              <a class="item-button" href="#about">About</a>
+              <hr>
+            </div>
+            <div class="nav-item">
+              <a class="item-button" href="#contact">Contact</a>
+            </div>
+          </nav>
+          <div class="icon-email">
+            <button class="bar-button" ><img src="icons/email-icon.png" alt="Image"></button>
+          </div><!--icon-email-->
+        </div> 
+      </div><!--bar-->
+      <div class="icon-nav">
+        <button class="mobile-bar bar-button"><img id="bar-img" class="" src="icons/nav-icon.png" alt="Image"></button>
+      </div><!--icon-nav-->
+    </div><!--container-->
+  </header>
+
+  <section id="main" class="main flex">
+    <ul class="social flex">
+      <li><a href="#"><img src="icons/ghicon.png" alt="Image"></a></li>
+      <li><a href="#"><img src="icons/lkicon.png" alt="Image"></a></li>
+      <li><a href="#"><img src="icons/peace-icon.png" alt="Image"></a></li>
+      <li><a href="#"><img src="icons/twicon.png" alt="Image"></a></li>
+      <li><a href="#"><img src="icons/micon.png" alt="Image"></a></li>
+    </ul><!--social-->
+    <div class="texts container">
+      <div class="main-text">
+        <h1>Hey There.</h1>
+        <h1>I'm Anthony.</h1>
+      </div><!--main-text-->
+      <div class="bellow-text">
+        <h3>I'm a Software Developer</h3>
+      </div><!--bellow-text-->
+      <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+        don’t hesitate to contact me.</p>
+    </div><!--texts-->
+  </section><!--main-->
+
+  <section class="works container">
+    <div class="works-title flex">
+      <div class="title">
+        <h2>My Recent Works</h2>
+      </div>
+      <div class="title-img">
+        <img class="img-w" src="images/line.png" alt="Image">
+      </div>
+    </div><!--works-title-->
+    <div class="works-desc flex">
+      <div class="desc-img">
+        <img class="img-w" src="images/works-image.png" alt="Image">
+      </div>
+      <div class="desc-cont">
+        <div class="desc-title">
+          <h2>Multi-Post Stories</h2>
+        </div>
+        <div class="description">
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+        </div>
+        <div class="desc-list">
+          <ul class="desc-ul flex">
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Bootstrap</li>
+            <li>Ruby</li>         
+          </ul>
+        </div><!--desc-list-->
+        <div class="desc-bt">
+          <button class="bt-prj bt-pu">See project</button>
+        </div><!--desc-bt-->
+      </div><!--desc-cont-->
+    </div><!--works-desc-->
+    
+    <div id="projects" class="projects grid"></div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-cont">
+        <div class="about-title">
+          <h2>About me</h2>
+        </div>
+        <div class="about-desc">
+          <p>Hey there! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+        </div>
+        <div class="about-bt">
+          <button class="bt-prj">Get my resume</button>
+        </div><!--about-bt-->
+      </div><!--about-cont-->
+      <div><img class="img-w" src="images/aboutline.png" alt="Image"></div>
+      <div class="about-features flex">
+        <div class="about-list">
+          <p class="about-ft"><img src="icons/diamondicon.png" alt="Image"> Language</p>
+          <ul class="about-ul">
+            <li class="about-li">Javascript</li>
+            <li class="about-li">Ruby</li>
+            <li class="about-li">HTML</li>
+            <li class="about-li">CSS</li>
+          </ul>
+        </div>
+        <div class="about-list">
+          <p class="about-ft"><img src="icons/squareicon.png" alt="Image"> Frameworks</p>
+          <ul class="about-ul">
+            <li class="about-li">React.js</li>
+            <li class="about-li">Ruby on Rails</li>
+            <li class="about-li">RSpec</li>
+            <li class="about-li">Capybara</li>
+            <li class="about-li">Selenium</li>
+          </ul>
+        </div>
+        <div class="about-list">
+          <p class="about-ft"><img src="icons/circleicon.png" alt="Image"> Skills</p>
+          <ul class="about-ul">
+            <li class="about-li">Database Management</li>
+            <li class="about-li">Version Control</li>
+            <li class="about-li">CLI</li>
+            <li class="about-li">API Design</li>
+            <li class="about-li">Web Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="form">
+    <div class="form-cont container flex">
+      <div class="form-text">
+        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+      </div>
+      <form action="https://formspree.io/f/xpzebdko" method="post" class="main-form">
+        <div class="fields grid">
+          <div class="field">
+            <input id="fullname" class="field-input" type="text" name="fullname" placeholder="Full Name" maxlength="30" required>
+            <div class="field-img">
+              <img class="img-w" src="images/mbarform.png" alt="Image">
+            </div>
+          </div>
+          <div class="field">
+            <input id="email" class="field-input" type="email" name="email" placeholder="Email Adress" required>
+            <div class="field-img">
+              <img class="img-w" src="images/bbarform.png" alt="Image">
+            </div>
+          </div>
+          <div class="field f-ta">
+            <textarea id="textarea" class="field-input" name="textarea" placeholder="Write me something..." id="textarea" maxlength="500" required></textarea>
+          </div>
+        </div><!--fields-->
+        <div class="bt-form">
+          <input type="submit" name="button" value="Get in touch" class="bt-prj">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-img">
+      <img class="img-w" src="images/bbarform.png" alt="Image">
+    </div>
+    <div>
+      <ul class="footer-social flex">
+        <li><a href="#"><img src="icons/fghicon.png" alt="Image"></a></li>
+        <li><a href="#"><img src="icons/flkicon.png" alt="Image"></a></li>
+        <li><a href="#"><img src="icons/fpeaceicon.png" alt="Image"></a></li>
+        <li><a href="#"><img src="icons/ftwicon.png" alt="Image"></a></li>
+        <li><a href="#"><img src="icons/fmicon.png" alt="Image"></a></li>
+      </ul><!--social-->
+    </div>
+    <div class="line-cont">
+      <hr class="footer-line"></hr>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
